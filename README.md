@@ -1,68 +1,73 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# All-Clear
 
-## Available Scripts
+React.js를 기반으로 세종대학교의 **수강신청을 개선한 웹 서비스** 입니다.
 
-In the project directory, you can run:
+![login1](https://github.com/1000peach/All-Clear/blob/master/src/img/login1.png)
 
-### `yarn start`
+![login2](https://github.com/1000peach/All-Clear/blob/master/src/img/login2.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![cart](https://github.com/1000peach/All-Clear/blob/master/src/img/cart.png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![apply](https://github.com/1000peach/All-Clear/blob/master/src/img/apply.png)
 
-### `yarn test`
+핵심 내용은 다음과 같습니다. 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **UI** 개선, **타이머**, **매크로 방지** 등 편의 기능 추가
+* **adobe flash player 중단** 이슈 해결
+* **자동이관** 시스템 도입
+* **우선순위** 적용 **예비번호** 시스템 도입
 
-### `yarn build`
+## Development Environment
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* OS : Windows 10
+* Client : React.js, HTML5, Javascript, CSS, SCSS
+* Server : AWS-EC2, Node.js, MySQL, Putty
+* Tool : Visual Studio Code, Git Bash (v2.22.0.windows.1)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Step By Step Execution
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. [실행 환경 구축하기]()
 
-### `yarn eject`
+2. [해당 저장소와 연동하기]()
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Modules
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+프로젝트에 필요한 npm 모듈입니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+react-router-dom
+express-session
+body-parser
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+cors
+mysql
+nodemailer
+axios
 
-## Learn More
+moment
+node-sass
+sass-loader
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+react-pdf
+html2canvas
+jspdf
+react-google-recaptcha
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Websites
 
-### Code Splitting
+* [프로젝트 기획]()
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+* [프로젝트 개발 및 상세 소개]()
 
-### Analyzing the Bundle Size
+## Contributors
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+* [1000peach](https://github.com/1000peach)<br>
+gmail : sheissblack@gmail.com<br>
+email : _970813@daum.net
 
-### Making a Progressive Web App
+* [LeeEunhyung](https://github.com/LeeEunhyung)<br>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+* [SSH1997](https://github.com/SSH1997)<br>
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* [sxxzin](https://github.com/sxxzin)<br>
